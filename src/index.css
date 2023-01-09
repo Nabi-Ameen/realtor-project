@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(240, 253, 244);
+}
+
+@layer components{
+    .nav-menu{
+        @apply text-sm font-semibold cursor-pointer py-3 border-b-[3px] border-b-transparent text-gray-500;
+    }
+}
